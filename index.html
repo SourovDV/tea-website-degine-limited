@@ -37,11 +37,11 @@
     </style>
 </head>
 
-<body class=".family-style  container mx-auto ">
+<body class=".family-style  container md:mx-auto ">
     <header>
         <nav>
-            <div class="hero py-16">
-                <div class="hero-content flex-col lg:flex-row  ">
+            <div class=" py-16">
+                <div class=" flex flex-col lg:flex-row justify-between ">
                     <div>
                         <h1 class="text-7xl font-extrabold">It's good <br>
                             tea time at The <br>
@@ -55,7 +55,7 @@
                             <img src="./images/banner.png" />
                         </div>
                         <div
-                            class="flex gap-3 items-center shadow-xl p-4  w-56 -mt-24 ml-14 bg-white  relative z-20 rounded-xl">
+                            class="flex gap-3 items-center shadow-xl p-4  w-56  -mt-24 ml-14 bg-white  relative z-20 rounded-xl">
                             <i class="fa-solid fa-star text-[#fde047] text-3xl "></i>
                             <div>
                                 <p>5.00</p>
@@ -123,10 +123,10 @@
             <!-- flex-1-div -->
             <div class="grid grid-cols-1 md:grid-cols-2 flex-1 gap-5">
                 <div class="bg-gradient-to-r from-red-100 to-red-100 rounded-lg h-36 "></div>
-                <div class="row-span-2 bg-gray-200 rounded-lg px-8 py-12 flex justify-center">
+                <div class="row-span-2 bg-gray-200 rounded-lg   md:px-14  lg:px-8 py-12 flex justify-center">
                     <img src="./images/fresh-1.png" alt="">
                 </div>
-                <div class="row-span-2 bg-gray-300 rounded-lg px-8 py-12 flex justify-center">
+                <div class="row-span-2 bg-gray-300 rounded-lg px-24 md:px-8 py-12 flex justify-center">
                     <img src="./images/fresh-2.png" alt="">
                 </div>
                 <div class="bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg h-36 "></div>
@@ -185,7 +185,7 @@
 
                 <!--current client review  -->
 
-                <div class="p-10 bg-white rounded-lg  absolute w-[400px] md:w-[433px] -mt-36  md:-ml-32 z-20">
+                <div class="p-10 bg-white rounded-lg  absolute w-[350px] md:w-[433px] -mt-36  md:-ml-32 z-20">
                     <div class="absolute  -mt-14  -ml-16">
                         <img src="./images/client.png" alt="">
                     </div>
@@ -216,16 +216,16 @@
         </section>
         <!-- our super client style end -->
     </main>
-    <footer class="  bg-base-200  ">
-    <div class="pl-80">
-        <div class="flex justify-between md:w-[1200px]">
+    <footer class="  bg-base-200   ">
+    <div class=" md:pl-80">
+        <div class="flex justify-between flex-col md:flex-row md:w-[1200px]">
             <img src="./images/cup.png" alt="">
             <div class="flex gap-4 items-center">
                 <p>Ready to get strated?</p>
                 <button class="btn btn-primary ">Get strated</button>
             </div>
            </div>
-            <div class="footer p-10 bg-base-200 text-base-content">
+            <div>
                 <nav>
                     <header class="footer-title">Services</header>
                     <a class="link link-hover">Branding</a>
@@ -248,7 +248,7 @@
                 </nav>
                 <form>
                     <header class="footer-title">Newsletter</header>
-                    <fieldset class="form-control w-80">
+                    <fieldset class="form-control md:w-80">
                         <label class="label">
                             <span class="label-text"> Email address</span>
                         </label>
@@ -263,7 +263,8 @@
             </div>
             <div class="bg-base-200 text-center">
                  
-                <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+                <p>Copyright © 2024 - All right reserved <br>
+                     by ACME Industries Ltd</p>
             </div>
               
     </div>
